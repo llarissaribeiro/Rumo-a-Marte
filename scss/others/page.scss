@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../../imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.formBody{
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+  color: white;
+}
+
+.top-logo{
+  width: 180px;
+}
+
+.paragraph{
+  margin: 6px 0px;
+}
+
+.btnSend{
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover{
+    background-color: $button-color;
+    color: white;
+  }
+
+}
+
+.footer{
+  color: #ffff;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
